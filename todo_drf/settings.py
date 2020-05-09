@@ -142,7 +142,3 @@ CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
     "https://m6code.github.io",
 ]
-
-# Simplified static file serving.
-# https://warehouse.python.org/project/whitenoise/
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage
