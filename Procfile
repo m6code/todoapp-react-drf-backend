@@ -1,0 +1,1 @@
+web: gunicorn todoapp-react-drf.wsgi --log-file -
